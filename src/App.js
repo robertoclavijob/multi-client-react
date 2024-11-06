@@ -1,28 +1,27 @@
 import React from 'react';
 import './App.css';
+import messages from './config/messages';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <h1>Welcome to McDonald's</h1>
+        <h1>{messages.app.welcome}</h1>
 
         <section>
-          <h2>Special Promotion</h2>
-          <p className="promotion-text">
-            Enjoy a delicious Big Mac today!
-          </p>
-          <p>API Key: 1234567890abcdef</p>
+          <h2>{messages.promotion.title}</h2>
+          <p className="promotion-text">{messages.promotion.text}</p>
+          <p>{messages.promotion.apiKey}</p>
         </section>
 
         <section>
-          <h2>Contact Us</h2>
-          <p className="contact-text">Call us at 1-800-MCD-HELP for support.</p>
+          <h2>{messages.contact.title}</h2>
+          <p className="contact-text">{messages.contact.text}</p>
         </section>
 
         <section>
-          <h2>Today's Special</h2>
-          <p className="special-text">Get 2 for $5 on Chicken Nuggets!</p>
+          <h2>{messages.special.title}</h2>
+          <p className="special-text">{messages.special.text}</p>
         </section>
       </header>
     </div>
