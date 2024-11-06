@@ -1,5 +1,4 @@
 import React from 'react';
-import './App.css';
 import messages from './config/messages';
 
 function App() {
