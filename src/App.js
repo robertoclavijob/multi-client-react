@@ -1,7 +1,9 @@
 import React from 'react';
 import messages from './config/messages';
+import './config/styles';
 
 function App() {
+
   return (
     <div className="App">
       <header className="App-header">

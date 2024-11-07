@@ -1,0 +1,37 @@
+:root {
+    --primary-color: #ffcc00;
+    --secondary-color: #d32f2f;
+    --background-color: #70b81e;
+    --text-color: white;
+    --heading-font: Arial, sans-serif;
+    --body-font: 'Roboto', sans-serif;
+    --font-size-large: 1.8rem;
+    --font-size-medium: 1.2rem;
+  }
+  
+  body {
+    font-family: var(--body-font);
+  }
+  
+  .App-header {
+    background-color: var(--background-color);
+    color: var(--text-color);
+  }
+  
+  h1, h2 {
+    font-family: var(--heading-font);
+  }
+  
+  .promotion-text {
+    color: var(--primary-color);
+    font-weight: bold;
+  }
+  
+  .contact-text {
+    color: var(--secondary-color);
+  }
+  
+  .special-text {
+    color: var(--primary-color);
+  }
+  
