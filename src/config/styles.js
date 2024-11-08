@@ -1,6 +1,6 @@
-import configuration from './configuration';
+import environmentConfig from './environmentConfig';
 
-const { currentClient } = configuration;
+const { currentClient } = environmentConfig;
 console.log(`./clients/${currentClient}/styles.css`)
 
 const styles = require(`./clients/${currentClient}/styles.css`);

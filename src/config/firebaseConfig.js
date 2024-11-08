@@ -1,6 +1,6 @@
-import configuration from './configuration';
+import environmentConfig from './environmentConfig';
 
-const { currentClient } = configuration;
+const { currentClient } = environmentConfig;
 
 const firebaseConfig = require(`./clients/${currentClient}/firebaseConfig`).default;
 

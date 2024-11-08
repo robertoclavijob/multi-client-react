@@ -1,6 +1,6 @@
-import configuration from './configuration';
+import environmentConfig from './environmentConfig';
 
-const { currentClient } = configuration;
+const { currentClient } = environmentConfig;
 
 const messages = require(`./clients/${currentClient}/messages`).default;
 
