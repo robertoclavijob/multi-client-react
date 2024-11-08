@@ -15,7 +15,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "start:mcdonalds": "REACT_APP_CLIENT=mcdonalds npm start",
+    "start:burgerking": "REACT_APP_CLIENT=burgerking npm start"
   },
   "eslintConfig": {
     "extends": [

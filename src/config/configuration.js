@@ -1,5 +1,5 @@
 const configuration = {
-  currentClient: "mcdonalds"
+  currentClient: process.env.REACT_APP_CLIENT
 };
 
 export default configuration;
