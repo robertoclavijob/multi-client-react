@@ -1,6 +1,6 @@
-import configuration from './configuration';
+import info from './info';
 
-const clientConfig = configuration;
+const clientConfig = info;
 
 export default {
   app: {
@@ -9,7 +9,6 @@ export default {
   promotion: {
     title: "Special Promotion",
     text: `Enjoy a delicious Big Mac today!`,
-    apiKey: `API Key: ${clientConfig.apiKey}`,
   },
   contact: {
     title: "Contact Us",

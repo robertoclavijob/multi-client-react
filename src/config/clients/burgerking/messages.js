@@ -1,19 +1,17 @@
-import configuration from './configuration';
+import info from './info';
 
-const clientConfig = configuration;
 
 export default {
   app: {
-    welcome: `Welcome to ${clientConfig.clientName}`,
+    welcome: `Welcome to ${info.clientName}`,
   },
   promotion: {
     title: "Special Promotion",
     text: "Get a Whopper for $5!",
-    apiKey: `API Key: ${clientConfig.apiKey}`,
   },
   contact: {
     title: "Contact Us",
-    text: `Call us at ${clientConfig.contactPhone} for support.`,
+    text: `Call us at ${info.contactPhone} for support.`,
   },
   special: {
     title: "Today's Special",
